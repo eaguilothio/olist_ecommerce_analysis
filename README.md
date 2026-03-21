@@ -1,7 +1,7 @@
 # Olist · E-commerce Analysis
 
 Análisis del comportamiento de compra en Olist, un marketplace brasileño.  
-**Stack:** Python · MySQL · Tableau
+**Stack:** Python · SQL · Tableau
 
 ---
 
@@ -68,11 +68,11 @@ Para reproducir el proyecto, descarga el dataset de Kaggle y coloca los CSV en `
 
 | Fase | Herramienta | Descripción |
 |------|-------------|-------------|
-| 1. Limpieza | Python | Exploración, filtrado de columnas, normalización de texto, gestión de nulos y duplicados |
-| 2. Base de datos | MySQL | Creación del esquema relacional e inserción de los datos limpios |
-| 3. Consultas | SQL | Análisis por pregunta de negocio: geografía, categorías, temporalidad y satisfacción |
-| 4. Estadística | Python | Análisis descriptivo de `price` y `review_score`, exportación del CSV para Tableau |
-| 5. Dashboard | Tableau | Visualización de KPIs e insights en un dashboard interactivo de una sola página |
+| 1. Exploración y Limpieza | Python 
+| 2. Creación de la Base de datos | SQL 
+| 3. Análisis de las preguntas de negocio | SQL 
+| 4. Estadística descriptiva de las variables importantes| Python 
+| 5. Visualización de insights en un dashboard interactivo | Tableau 
 
 ---
 
